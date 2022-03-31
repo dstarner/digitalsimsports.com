@@ -44,6 +44,7 @@ export default function HomePage() {
               autoPlay
               loop
               muted
+              playsInline
               className='absolute z-10 min-h-full w-auto min-w-full max-w-none'
             >
               <source
