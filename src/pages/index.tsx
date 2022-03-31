@@ -2,7 +2,6 @@ import * as React from 'react';
 
 import Layout from '@/components/layout/Layout';
 import ArrowLink from '@/components/links/ArrowLink';
-import UnderlineLink from '@/components/links/UnderlineLink';
 import Seo from '@/components/Seo';
 
 // !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
@@ -32,13 +31,6 @@ export default function HomePage() {
                   Follow on Twitch
                 </ArrowLink>
               </p>
-
-              <footer className='absolute bottom-2 text-gray-700'>
-                © {new Date().getFullYear()} By{' '}
-                <UnderlineLink href='https://danstarner.com'>
-                  Dan Starner
-                </UnderlineLink>
-              </footer>
             </div>
             <video
               autoPlay
@@ -47,10 +39,8 @@ export default function HomePage() {
               playsInline
               className='absolute z-10 min-h-full w-auto min-w-full max-w-none'
             >
-              <source
-                src='https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-26070-large.mp4'
-                type='video/mp4'
-              />
+              <source src='/videos/bg-video.webm' type='video/webm' />
+              <source src='/videos/index-bg-video.mp4' type='video/mp4' />
               Your browser does not support the video tag.
             </video>
           </header>
