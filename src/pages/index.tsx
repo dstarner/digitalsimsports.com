@@ -23,7 +23,7 @@ export default function HomePage() {
                 alt='DSS Logo'
                 src='/images/DSS_LETTERS.png'
               />
-              <h1 className='dodge-font mt-4 text-4xl md:text-6xl'>
+              <h1 className='ethno-font mt-4 text-4xl md:text-6xl'>
                 Digital SimSports
               </h1>
               <p className='mt-6 text-sm'>

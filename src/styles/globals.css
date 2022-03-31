@@ -46,8 +46,19 @@
     src: url('/fonts/Dodgv2c.ttf');
   }
 
-  .dodge-font {
-    font-family: 'Dodge';
+  @font-face {
+    font-family: 'Ethnocentric Rg';
+    src: local('EthnocentricRg-Regular'),
+      url('/fonts/EthnocentricRg-Regular.woff2') format('woff2'),
+      url('/fonts/EthnocentricRg-Regular.woff') format('woff'),
+      url('/fonts/EthnocentricRg-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  .ethno-font {
+    font-family: 'Ethnocentric Rg';
   }
 
   .cursor-newtab {
