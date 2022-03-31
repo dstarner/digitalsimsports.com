@@ -41,6 +41,15 @@
       U+2215, U+FEFF, U+FFFD;
   }
 
+  @font-face {
+    font-family: 'Dodge';
+    src: url('/fonts/Dodgv2c.ttf');
+  }
+
+  .dodge-font {
+    font-family: 'Dodge';
+  }
+
   .cursor-newtab {
     cursor: url('/images/new-tab.png') 10 10, pointer;
   }
@@ -115,4 +124,8 @@
   .animated-underline:focus-visible {
     background-size: 0 2px, 100% 2px;
   }
+}
+
+video {
+  filter: brightness(30%);
 }

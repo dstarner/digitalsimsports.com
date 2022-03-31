@@ -24,7 +24,7 @@ class MyDocument extends Document {
             crossOrigin='anonymous'
           />
         </Head>
-        <body>
+        <body className='min-h-screen overflow-hidden bg-black'>
           <Main />
           <NextScript />
         </body>
