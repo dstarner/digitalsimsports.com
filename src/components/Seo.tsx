@@ -5,8 +5,8 @@ import { openGraph } from '@/lib/helper';
 
 // !STARTERCONF Change these default meta
 const defaultMeta = {
-  title: 'Digital SimSports',
-  siteName: 'Digital SimSports',
+  title: 'DIGITAL SimSports',
+  siteName: 'DIGITAL SimSports',
   description: 'World class, multi-discipline iRacing esports team',
   url: 'https://digitalsimsports.com',
   type: 'website',
